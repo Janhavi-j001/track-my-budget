@@ -1,45 +1,93 @@
+Here’s the updated README file reflecting the change from `npm run start` to `npm run dev` for running the development server:
+
+---
+
 # TrackMyBudgets: Budgets and Expenses Tracking Web App
 
-TrackMyBudgets is a responsive and progressive web application designed to help users manage and track their personal budgets and expenses. It allows users to create multiple budgets, categorize their expenses, and visually track their spending progress.
+TrackMyBudgets is a progressive web application that helps users manage and track their personal budgets and expenses. With features like multiple budget creation, expense categorization, and progress visualization, the app provides a seamless way to take control of your finances.
+
+---
 
 ## Features
 
-- **Create Multiple Budgets**: Users can set up multiple budgets for different financial goals.
-- **Expense Categorization**: Categorize expenses into custom or predefined categories.
-- **Progress Tracking**: View detailed budget progress with dynamic visual charts and summaries.
-- **Responsive Design**: Fully functional on both desktop and mobile devices.
-- **Real-time Feedback**: Interactive notifications with Toastify for a smooth user experience.
+- **Multiple Budgets:** Create and manage multiple budgets for different financial goals.
+- **Expense Categorization:** Add and organize expenses under custom or predefined categories.
+- **Progress Visualization:** View budget utilization with dynamic charts and summaries.
+- **Responsive Design:** Fully responsive and functional on desktop, tablet, and mobile devices.
+- **Real-Time Feedback:** Interactive notifications using Toastify for enhanced user experience.
+- **LocalStorage Integration:** Securely store data locally for offline use.
 
-## Demo
+---
 
-Check out the live demo of the app [here](https://trackmybudgets.netlify.app).
+## Live Demo
+
+Explore the app here: [TrackMyBudgets Live Demo](https://trackmybudgets.netlify.app)
+
+---
 
 ## Technologies Used
 
-- **React**: Core library for building the user interface.
-- **React Router**: For dynamic, multi-page navigation without full page reloads.
-- **JSX**: Syntax extension to write HTML in JavaScript.
-- **CSS**: For layout, styling, and responsive design.
-- **LocalStorage**: For storing data locally on the browser to make it secure.
-- **Toastify**: For notifications and alerts throughout the app.
+- **React**: Core framework for building the app's UI.
+- **React Router**: For handling multi-page navigation without reloading the app.
+- **CSS**: For styling, layout, and responsive design.
+- **LocalStorage**: To persist data locally for offline use.
+- **Toastify**: To provide user-friendly notifications and alerts.
 
-## How to Use
+---
 
-1. **Login**: Login to the app by simply typing your name.
-2. **Create a Budget**: Navigate to the "Create Budget" section, enter a budget name, amount, and start tracking expenses.
-3. **Add Expenses**: For each budget, you can add expenses by categorizing them (e.g., groceries, rent, entertainment) and specifying the amount.
-4. **Monitor Progress**: Each budget has a detailed page showing your total spending, remaining budget, and dynamic visuals such as progress bars and charts.
-5. **Responsive Design**: Use the app on any device—desktop, tablet, or smartphone—with a fully responsive interface.
+## Installation and Setup
+
+Follow these steps to set up and run the project locally:
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v14 or higher recommended)
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/) package manager
+
+### Installation Steps
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/janhavi-j001/track-my-budget.git
+   cd track-my-budget
+   ```
+
+2. **Install Dependencies**
+   Run the following command to install all necessary dependencies:
+   ```bash
+   npm install
+   ```
+
+3. **Start the Development Server**
+   Run the application locally:
+   ```bash
+   npm run dev
+   ```
+
+4. **Build the App for Production**
+   If you want to build the app for production, run:
+   ```bash
+   npm run build
+   ```
+
+5. **Access the App**
+   Open your browser and navigate to:
+   ```
+   http://localhost:3000
+   ```
+
+---
 
 ## Folder Structure
 
 ```bash
 track-my-budgets/
-├── public/
+├── public/          # Static files (HTML, favicon, etc.)
 ├── src/
 │   ├── components/  # Reusable React components
 │   ├── pages/       # Page-level components
-│   ├── assets/      # images, icons, etc.
-│   └── App.js       # Main application file
-├── package.json
+│   ├── assets/      # Images, icons, etc.
+│   └── App.js       # Main application logic
+├── package.json     # Project metadata and dependencies
 └── README.md
+```
