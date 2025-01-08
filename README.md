@@ -1,7 +1,3 @@
-Here’s the updated README file reflecting the change from `npm run start` to `npm run dev` for running the development server:
-
----
-
 # TrackMyBudgets: Budgets and Expenses Tracking Web App
 
 TrackMyBudgets is a progressive web application that helps users manage and track their personal budgets and expenses. With features like multiple budget creation, expense categorization, and progress visualization, the app provides a seamless way to take control of your finances.
